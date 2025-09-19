@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <link rel="stylesheet" href="/Home/homestyle.css" /> <!-- Your global CSS -->
+  <link rel="stylesheet" href="About.css" /> <!-- About page-specific -->
+  <script defer src="about.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="nav-elements">
+        <div class="nav-logo"></div>
+
+        <!-- Hamburger menu (for mobile) -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="navside-bar" id="nav-menu">
+          <ul>
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="/Courses/Courses.html">Courses</a></li>
+            <li><a href="/About/About.html">About</a></li>
+            <li><a href="/Developer/PersonalPortfolio.html">Developer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- 🔽 About Content Section -->
+  <section class="about-section fade-in">
+    <div class="about-container">
+      <h1>About TechCourses</h1>
+      <p><strong>TechCourses</strong> is an initiative dedicated to simplifying how people learn technology. Our courses are project-based and beginner-friendly.</p>
+    </div>
+  </section>
+
+  <!-- 🔹 Stats Section -->
+  <section class="stats-section fade-in">
+    <div class="stats-container">
+      <div class="stat-card">
+        <span class="stat-number" data-target="500">0</span>
+        <p>Learners</p>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="30">0</span>
+        <p>Courses</p>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="100">0</span>
+        <p>Projects</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Mission & Vision Section -->
+  <section class="mission-section fade-in">
+    <h2>🚀 Our Mission</h2>
+    <p>To make tech education hands-on and practical for every learner worldwide.</p>
+
+    <h2>🎯 Our Vision</h2>
+    <div class="vision-text" id="visionText">
+      <p>We envision a world where anyone can learn to code and build amazing things regardless of background.</p>
+      <p class="extra-text hidden">With TechCourses, we aim to break the traditional learning model. Our future roadmap includes certifications, internships, and community projects that will help learners not just learn, but grow professionally.</p>
+      <button id="toggleVision">Show More</button>
+    </div>
+  </section>
+
+  <!-- 🔹 Developer Section -->
+  <section class="developer-section fade-in">
+    <h2>👨‍💻 Meet the Developer</h2>
+    <div class="dev-card">
+      <img src="hacker-g840eb2d5f_1920.jpg" alt="Developer Photo" />
+      <h3>Sonu Yadav</h3>
+      <p>Founder & Developer of Undefined Dev</p>
+      <a href="/Developer/PersonalPortfolio.html" class="portfolio-btn">View Portfolio</a>
+    </div>
+  </section>
+
+
+  <!-- ✅ Your Footer -->
+  <div class="footer">
+    <div class="foot-content">
+      <p>All rights reserved</p>
+      <br>
+      <p>Made With Love In India</p>
+    </div>
+
+  </div>
+  <script src="/Home/Homescript.js"></script>
+  <script src="About.js"></script>
+</body>
+</html>
